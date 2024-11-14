@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Tests\Components;
 
-use App\Controller\ExampleLiveComponent;
+use App\Twig\Components\ExampleLiveComponent;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\UX\LiveComponent\Test\InteractsWithLiveComponents;
 

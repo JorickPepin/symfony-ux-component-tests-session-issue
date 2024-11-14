@@ -1,7 +1,6 @@
 <?php
-declare(strict_types=1);
 
-namespace App\Controller;
+namespace App\Twig\Components;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\FormInterface;
@@ -12,7 +11,7 @@ use Symfony\UX\LiveComponent\Attribute\LiveAction;
 use Symfony\UX\LiveComponent\ComponentWithFormTrait;
 use Symfony\UX\LiveComponent\DefaultActionTrait;
 
-#[AsLiveComponent('example_live_component')]
+#[AsLiveComponent]
 final class ExampleLiveComponent extends AbstractController
 {
     use DefaultActionTrait;
